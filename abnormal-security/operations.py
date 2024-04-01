@@ -1,8 +1,9 @@
-""" Copyright start
-  Copyright (C) 2008 - 2023 Fortinet Inc.
-  All rights reserved.
-  FORTINET CONFIDENTIAL & FORTINET PROPRIETARY SOURCE CODE
-  Copyright end """
+"""
+Copyright start
+MIT License
+Copyright (c) 2024 Fortinet Inc
+Copyright end
+"""
 
 import os, uuid
 from requests import request, exceptions as req_exceptions
@@ -16,18 +17,16 @@ logger = get_logger("abnormal-security")
 
 class AbnormalSecurity:
     def __init__(self, config, *args, **kwargs):
-        server_url = config.get("server_url")
+        server_url = config.get("server_url").strip('/')
         if not server_url.startswith('https://') and not server_url.startswith('http://'):
             server_url = "https://"+server_url
-        if server_url.endswith("/"):
-            server_url = server_url[:-1]
         self.url = server_url
         self.access_token = str(config.get("access_token"))
         self.verify_ssl = config.get("verify_ssl")
 
     def api_request(self, method, endpoint, params={}, data={}):
         try:
-            endpoint = self.url + endpoint
+            endpoint = self.url + "/v1" + endpoint
             params = self.build_params(params)
             headers = {"Authorization": f"Bearer {self.access_token}"}
             if params.get("mock-data"):

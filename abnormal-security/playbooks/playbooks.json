@@ -51,7 +51,7 @@
                   "impersonatedParty": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_threats",
                 "operationTitle": "Get Threats"
@@ -124,7 +124,7 @@
                   "threatId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_threat_details",
                 "operationTitle": "Get Threat Details"
@@ -195,7 +195,7 @@
                   "threatId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_threat_links",
                 "operationTitle": "Get Threat Links"
@@ -266,7 +266,7 @@
                   "threatId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_threat_attachments",
                 "operationTitle": "Get Threat Attachments"
@@ -339,7 +339,7 @@
                   "pageNumber": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_cases",
                 "operationTitle": "Get Cases"
@@ -410,7 +410,7 @@
                   "caseId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_case_details",
                 "operationTitle": "Get Case Details"
@@ -480,7 +480,7 @@
                 "params": {
                   "messageId": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_message_details",
                 "operationTitle": "Get Message Details"
@@ -559,7 +559,7 @@
                   "pageNumber": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_abuse_campaigns",
                 "operationTitle": "Get Abuse Campaigns"
@@ -630,7 +630,7 @@
                   "campaignId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_abuse_campaign_details",
                 "operationTitle": "Get Abuse Campaign Details"
@@ -701,7 +701,7 @@
                   "emailAddress": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_employee_info",
                 "operationTitle": "Get Employee Information"
@@ -772,7 +772,7 @@
                   "emailAddress": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_employee_identity_analysis",
                 "operationTitle": "Get Employee Identity Analysis"
@@ -843,7 +843,7 @@
                   "emailAddress": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_employee_login_info",
                 "operationTitle": "Get Employee Login Information"
@@ -916,7 +916,7 @@
                   "end": "",
                   "status": ""
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_detection_reports",
                 "operationTitle": "Get Detection Reports"
@@ -988,7 +988,7 @@
                   "actionId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "check_case_action_status",
                 "operationTitle": "Check Case Action Status"
@@ -1060,7 +1060,7 @@
                   "actionId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "check_threat_action_status",
                 "operationTitle": "Check Threat Action Status"
@@ -1132,7 +1132,7 @@
                   "source": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "download_data_from_threat_log",
                 "operationTitle": "Download Data from Threat Log"
@@ -1206,7 +1206,7 @@
                   },
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "manage_threat",
                 "operationTitle": "Manage Threat"
@@ -1280,7 +1280,7 @@
                   },
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "manage_abnormal_case",
                 "operationTitle": "Manage Abnormal Case"
@@ -1351,7 +1351,7 @@
                   "caseId": "",
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "get_case_analysis",
                 "operationTitle": "Get Case Analysis"
@@ -1427,7 +1427,7 @@
                   },
                   "mock-data": false
                 },
-                "version": "1.0.0",
+                "version": "1.0.1",
                 "connector": "abnormal-security",
                 "operation": "submit_false_positive_report",
                 "operationTitle": "Submit a Missed Attack or False Positive Report"
@@ -1464,7 +1464,7 @@
           ]
         }
       ],
-      "name": "Sample - Abnormal Security - 1.0.0",
+      "name": "Sample - Abnormal Security - 1.0.1",
       "description": "Abnormal Security helps to prevent email and email-like attacks, automate your security operations and reduce your total spend with one extensible platform.",
       "visible": true,
       "recordTags": [
